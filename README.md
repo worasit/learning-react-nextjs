@@ -1,5 +1,7 @@
 # learning-react-nextjs
 
+[![Build status](https://badge.buildkite.com/0d28b31cb4ae053ce9fa920f100dda95fbdb8f5f41a11e4f82.svg)](https://buildkite.com/nongped/learning-react)
+
 ## Get Started
 
 - Create a project structure
@@ -35,8 +37,10 @@
 
 # Build Pipelines using BuildKite
 
-This project uses the [BuildKite](https://github.com/buildkite/nodejs-docker-example) as a continuous development pipeline via Docker agent
+This project uses the [BuildKite](https://github.com/buildkite/nodejs-docker-example) as a continuous development
+pipeline via Docker agent
 https://buildkite.com/organizations/nongped/agents#setup-macos
+
 ```shell
 # Start a BuildKite agent
 docker run -e BUILDKITE_AGENT_TOKEN="6fe1d931de4b23c831330988926ea0b8d0353213b7be426583" buildkite/agent
