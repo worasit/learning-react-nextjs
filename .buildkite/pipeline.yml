@@ -1,5 +1,5 @@
 steps:
-  - name: ":nodes:"
-    commands:
-      - "npm install"
-      - "npm run build"
+  - command: "npm install"
+
+notify:
+  - email: "worasit.dmk501@gmail.com"
