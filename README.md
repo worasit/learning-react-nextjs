@@ -114,3 +114,26 @@ buildkite-agent
       }
   ```
 - execute `tsc` to verify the typescript syntax
+
+## Adding React
+
+- install `react` and `react-dom` normal dependencies
+  ```shell
+  npm install --save react react-dom
+  ```
+
+- install `@types/react` and `@types/react-dom` as dev dependencies
+  ```shell
+  npm install --save-dev @types/react @types/react-dom
+  ```
+- update tsconfig.json to support jsx files and renamed ts file to tsx
+  ```json
+  { "jsx": "react" }
+  ```
+- make babel to understand react
+  ```shell
+  npm install --save-dev @babel/preset-react
+  ```
+- update `.babelrc` to apply a `@babel/preset-react` plugin
+- configure webpack to use `index.tsx` as an entry point file.
+
