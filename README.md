@@ -42,14 +42,9 @@ pipeline via Docker agent
 https://buildkite.com/organizations/nongped/agents#setup-macos
 
 ```shell
-# Start a BuildKite agent
-docker run -e BUILDKITE_AGENT_TOKEN="6fe1d931de4b23c831330988926ea0b8d0353213b7be426583" buildkite/agent
+brew install buildkite/buildkite/buildkite-agent
+sed -i '' "s/xxx/6fe1d931de4b23c831330988926ea0b8d0353213b7be426583/g" "$(brew --prefix)"/etc/buildkite-agent/buildkite-agent.cfg
 
-# Trigger a first build
-export  BUILDKITE_AGENT_TOKEN="6fe1d931de4b23c831330988926ea0b8d0353213b7be426583"
-curl -H "Authorization: Bearer ${BUILDKITE_AGENT_TOKEN}" "https://api.buildkite.com/v2/organizations/nongped/pipelines/learning-react/builds" \
-  -X "POST" \
-  -F "commit=HEAD" \
-  -F "branch=master" \
-  -F "message=First build :rocket:"
+# Start a BuildKite agent on Local MacOS laptop
+buildkite-agent
 ```
