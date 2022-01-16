@@ -12,6 +12,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -43,8 +44,10 @@
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -61,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642307601553</updated>
-      <workItem from="1642307605467" duration="5492000" />
+      <workItem from="1642307605467" duration="6726000" />
     </task>
     <task id="LOCAL-00001" summary="Define a project structure with webpack.">
       <created>1642309318976</created>
@@ -98,5 +101,9 @@
     <MESSAGE value="Define a project structure with webpack." />
     <MESSAGE value="Deleted a dist folder." />
     <option name="LAST_COMMIT_MESSAGE" value="Deleted a dist folder." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

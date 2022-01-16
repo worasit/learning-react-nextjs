@@ -35,7 +35,7 @@
   webpack-dev-server --open --mode=development
   ```
 
-# Build Pipelines using BuildKite
+## Build Pipelines using BuildKite
 
 This project uses the [BuildKite](https://github.com/buildkite/nodejs-docker-example) as a continuous development
 pipeline via Docker agent
@@ -48,3 +48,27 @@ sed -i '' "s/xxx/6fe1d931de4b23c831330988926ea0b8d0353213b7be426583/g" "$(brew -
 # Start a BuildKite agent on Local MacOS laptop
 buildkite-agent
 ```
+
+## Configure TS-loader
+
+- install `ts-loader` as dev dependencies
+  ```shell
+  npm install --save-dev typescript ts-loader
+  ```
+- configure typescript using `tsconfig.json`
+  ```json
+  {
+   "compilerOptions": {
+    "target": "ES6",
+    "module": "ES6",
+    "strict": true
+   }
+  }
+  ```
+- update existing `index.js` to `index.ts`
+  ```typescript
+    function log(message: string) {
+       console.log(message);
+    }
+    log('hellow world!');
+  ```
