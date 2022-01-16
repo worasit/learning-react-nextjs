@@ -72,3 +72,45 @@ buildkite-agent
     }
     log('hellow world!');
   ```
+
+## Configure Babel-loader
+
+- install `@babel/core @babel/preset-env @babel/preset-typescript` as dev dependencies
+  ```shell
+  npm install --save-dev @babel/core @babel/preset-env @babel/preset-typescript
+  ```
+- create a babel configuration file `.babelrc` and configure the presets
+   ```json
+    {
+     "presets": [
+       "@babel/preset-env",
+       "@babel/preset-typescript"
+     ]
+   }
+   ```
+- install `babel-loader`
+  ```shell
+  npm install --save-dev babel-loader
+  ```
+- update `webpack.config.js` to use `babel-loader` instead of `ts-loader`
+- install `@babel/plugin-proposal-class-properties` to allow class initializations in typescript
+  ```shell
+  npm install --save-dev @babel/plugin-proposal-class-properties
+  ```
+- configure typescript compiler to check for typesafe at compilation time.
+  ```json
+      {
+        "compilerOptions": {
+         "target": "ESNext",
+         "module": "ES6",
+         "strict": true,
+         "noEmit": true,
+         "isolatedModules": true,
+         "esModuleInterop": true
+      },
+       "include": [
+           "./src/**/*"
+       ]
+      }
+  ```
+- execute `tsc` to verify the typescript syntax
