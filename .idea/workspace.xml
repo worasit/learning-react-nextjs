@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a8729b0-c7b8-4951-9450-f6d1df767649" name="Changes" comment="Adding react to a project.">
+    <list default="true" id="0a8729b0-c7b8-4951-9450-f6d1df767649" name="Changes" comment="Adding sourcemap.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642307601553</updated>
       <workItem from="1642307605467" duration="6726000" />
-      <workItem from="1642321122848" duration="3792000" />
+      <workItem from="1642321122848" duration="3925000" />
     </task>
     <task id="LOCAL-00001" summary="Define a project structure with webpack.">
       <created>1642309318976</created>
@@ -141,7 +137,8 @@
     <MESSAGE value="Ignored idea and package lock." />
     <MESSAGE value="Applied babel-loader with typescript checking on compilation time." />
     <MESSAGE value="Adding react to a project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding react to a project." />
+    <MESSAGE value="Adding sourcemap." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding sourcemap." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

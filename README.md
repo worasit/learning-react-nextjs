@@ -1,6 +1,6 @@
 # learning-react-nextjs
 
-[![Build status](https://badge.buildkite.com/0d28b31cb4ae053ce9fa920f100dda95fbdb8f5f41a11e4f82.svg)](https://buildkite.com/nongped/learning-react)
+[![Build status](https://badge.buildkite.com/56ada139a6b5e22b10cd9b1ed4c7f329ea8f447463cb87ea29.svg)](https://buildkite.com/nongped/learning-react)
 
 ## Get Started
 
