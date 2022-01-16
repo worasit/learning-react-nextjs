@@ -137,3 +137,34 @@ buildkite-agent
 - update `.babelrc` to apply a `@babel/preset-react` plugin
 - configure webpack to use `index.tsx` as an entry point file.
 
+## Configure a source map (to map error from Javascript(browser) to tsx)
+
+This configuration allows us to know where is the failure located in the source code. we could configure by
+using [devtool](https://webpack.js.org/configuration/devtool/#devtool) from webpack
+
+- update the `webpack.config.js` with
+  ```json
+  {
+    devtool: "eval-source-map"
+  }
+  ```
+- update `tsconfig.json` to allow sourceMaps
+  ```json
+  {
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ES6",
+      "strict": true,
+      "noEmit": true,
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "jsx": "react",
+      "sourceMap": true
+    },
+    "include": [
+      "./src/**/*"
+    ]
+  }
+  
+  ```
