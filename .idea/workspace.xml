@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a8729b0-c7b8-4951-9450-f6d1df767649" name="Changes" comment="Setting up CSS modules.">
-      <change afterPath="$PROJECT_DIR$/src/svg/pizza.svg" afterDir="false" />
+    <list default="true" id="0a8729b0-c7b8-4951-9450-f6d1df767649" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Cart.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,9 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -54,19 +53,19 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/svg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/svg" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/svg" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -80,6 +79,7 @@
       <updated>1642307601553</updated>
       <workItem from="1642307605467" duration="6726000" />
       <workItem from="1642321122848" duration="3925000" />
+      <workItem from="1642387278110" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="Define a project structure with webpack.">
       <created>1642309318976</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642335870181</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Importing SVG.">
+      <created>1642380047333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642380047333</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +179,8 @@
     <MESSAGE value="Added a Pizza component." />
     <MESSAGE value="Added css global." />
     <MESSAGE value="Setting up CSS modules." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up CSS modules." />
+    <MESSAGE value="Importing SVG." />
+    <option name="LAST_COMMIT_MESSAGE" value="Importing SVG." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
