@@ -19,9 +19,7 @@ class Cart extends React.Component<Props, State> {
     render() {
         return (
             <div className={CartCSS.cartContainer}>
-                <button className={CartCSS.button} type="button" onClick={() => {
-                    this.setState((prevState) => ({isOpen: !prevState.isOpen}));
-                }}>
+                <button className={CartCSS.button} type="button" onClick={event => this.handleClick(event)}>
                     <FiShoppingCart/>
                     <span>2 pizza(s)</span>
                 </button>
@@ -35,6 +33,14 @@ class Cart extends React.Component<Props, State> {
                 </div>
             </div>
         );
+    }
+
+    handleClick = (event: React.MouseEvent<HTMLButtonElement, globalThis.MouseEvent>) => {
+        console.log(event.target);
+        if ((event.target as HTMLElement).nodeName === 'SPAN') {
+            console.log('this is SPAN')
+        }
+        this.setState((prevState) => ({isOpen: !prevState.isOpen}))
     }
 }
 

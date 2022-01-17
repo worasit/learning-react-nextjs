@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a8729b0-c7b8-4951-9450-f6d1df767649" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Cart.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cart.tsx" afterDir="false" />
+    <list default="true" id="0a8729b0-c7b8-4951-9450-f6d1df767649" name="Changes" comment="Adding Cart - React.Component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <updated>1642307601553</updated>
       <workItem from="1642307605467" duration="6726000" />
       <workItem from="1642321122848" duration="3925000" />
-      <workItem from="1642387278110" duration="933000" />
+      <workItem from="1642387278110" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="Define a project structure with webpack.">
       <created>1642309318976</created>
@@ -151,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642380047333</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding Cart - React.Component">
+      <created>1642388411805</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642388411805</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +184,8 @@
     <MESSAGE value="Added css global." />
     <MESSAGE value="Setting up CSS modules." />
     <MESSAGE value="Importing SVG." />
-    <option name="LAST_COMMIT_MESSAGE" value="Importing SVG." />
+    <MESSAGE value="Adding Cart - React.Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Cart - React.Component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
